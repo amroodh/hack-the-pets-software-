@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter" sans-serif;
+}
+
+.main-hero {
+  display: flex;
+  gap: 7rem;
+}
+.hero-img {
+  width: 50rem;
+  height: 40rem;
+}
+/* nav  */
+.nav {
+  display: grid;
+  grid-template-columns: 6fr 1fr 1fr;
+  margin: 0 5rem;
+  margin-top: 1rem;
+}
+
+.content-1,
+.content-2,
+.adopt-link {
+  margin-left: 7rem;
+  margin-bottom: 2rem;
+}
+.content-1 {
+  margin-top: 3.5rem;
+  font-size: 2.8rem;
+}
+
+.content-2 {
+  font-size: 1.5rem;
+}
+
+.adopt-link {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 8px;
+  color: black;
+  background-color: #ffeecc;
+  padding: 1.5rem;
+  font-size: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.fa-sharp,
+.fa-solid {
+  height: 3rem;
+  width: 3rem;
+}
+.adopt-link:hover {
+  border: 1px solid #000;
+}
+
+.link-aboutus {
+  text-decoration: none;
+  font-size: 1.5rem;
+
+  color: #000;
+}
+
+/* adoption cards  */
+.dog {
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffeecc;
+  padding-bottom: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 0;
+}
+.dogs {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: center;
+  gap: 2rem;
+  margin: 3rem;
+  justify-content: space-between;
+}
+
+.dog-img {
+  padding-top: 1.5rem;
+  height: 15rem;
+  width: 15rem;
+}
